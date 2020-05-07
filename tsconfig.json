@@ -3,7 +3,7 @@
     "strict": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "types": ["node"],
+    "types": ["node", "chai"],
     "typeRoots": ["node_modules/@types"],
     "outDir": "build",
     "target": "es5"

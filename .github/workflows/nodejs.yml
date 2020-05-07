@@ -1,4 +1,4 @@
-name: testcafe-typescript
+name: testcafe-typescript-chai-should
 'on':
   push: null
   schedule:
