@@ -1,0 +1,52 @@
+{
+  "author": "Girma Nigusse <xgirma@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/e2e-boilerplate/testcafe-typescript/issues"
+  },
+  "dependencies": {
+    "testcafe": "1.8.4",
+    "typescript": "3.8.3"
+  },
+  "description": "TestCafé end-to-end test automation boilerplate. Using TypeScript.",
+  "devDependencies": {
+    "@types/node": "13.13.4",
+    "husky": "4.2.5",
+    "lint-staged": "10.2.2",
+    "prettier": "2.0.4",
+    "tslint": "6.1.1",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-plugin-prettier": "2.3.0"
+  },
+  "homepage": "https://github.com/e2e-boilerplate/testcafe-typescript#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged --allow-empty"
+    }
+  },
+  "keywords": [
+    "boilerplate",
+    "e2e",
+    "e2e tests",
+    "example",
+    "integration test",
+    "testcafe",
+    "typescript"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "*.{js,ts,json,md}": [
+      "prettier --write"
+    ]
+  },
+  "name": "testcafe-typescript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplate/testcafe-typescript.git"
+  },
+  "scripts": {
+    "lint": "tslint -c tslint.json './spec/*.ts'",
+    "pretty": "prettier --no-config './spec/*.ts' --write",
+    "test": "npx testcafe chrome ./spec/sandbox.spec.ts"
+  },
+  "version": "1.0.0"
+}
