@@ -7,5 +7,10 @@
   "rules": {
     "prettier": true,
     "no-unused-expression": false
+  },
+  "linterOptions": {
+    "exclude": [
+      "package.json"
+    ]
   }
 }
