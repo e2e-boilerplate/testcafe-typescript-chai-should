@@ -10,7 +10,8 @@
   },
   "linterOptions": {
     "exclude": [
-      "package.json"
+      "*.json",
+      "**/*.json"
     ]
   }
 }
