@@ -6,7 +6,7 @@
   "dependencies": {
     "chai": "4.2.0",
     "testcafe": "1.8.8",
-    "typescript": "3.9.6"
+    "typescript": "3.9.7"
   },
   "description": "TestCafé end-to-end test automation boilerplate. Using TypeScript, Chai and Should.",
   "devDependencies": {
