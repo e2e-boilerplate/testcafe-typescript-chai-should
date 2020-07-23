@@ -11,7 +11,7 @@
   "description": "TestCafé end-to-end test automation boilerplate. Using TypeScript, Chai and Should.",
   "devDependencies": {
     "@types/chai": "4.2.12",
-    "@types/node": "13.13.14",
+    "@types/node": "13.13.15",
     "husky": "4.2.5",
     "lint-staged": "10.2.11",
     "prettier": "2.0.4",
