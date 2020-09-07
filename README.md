@@ -2,7 +2,7 @@
     
 # TestCafé Boilerplate
     
-TestCafé end-to-end test automation boilerplate, Using [TypeScript](https://www.typescriptlang.org), [Chai](https://www.chaijs.com) and [Commonjs](https://www.chaijs.com/api/bdd/).
+TestCafé end-to-end test automation boilerplate, Using [TypeScript](https://www.typescriptlang.org), [Chai](https://www.chaijs.com) and [Commonjs](https://www.chaijs.com/api/bdd/).. Clone or fork this repository.
     
 ## Getting Started
     	1. git clone git@github.com:e2e-boilerplate/testcafe-typescript-chai-should.git
