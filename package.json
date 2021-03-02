@@ -4,7 +4,7 @@
     "url": "https://github.com/e2e-boilerplate/testcafe-typescript-chai-should/issues"
   },
   "dependencies": {
-    "chai": "4.3.0",
+    "chai": "4.3.1",
     "testcafe": "1.11.0",
     "typescript": "4.2.2"
   },
